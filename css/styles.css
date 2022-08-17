@@ -1,0 +1,239 @@
+
+.fixed-container {
+    max-width: 1726px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    
+}
+.navigation{
+    width: 700px;
+
+}
+.navigation ul {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.nav-li {
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    
+}
+.container-block1 {
+    max-width: 1726px;
+    width: 90%;
+    display: flex;
+    margin-bottom: 78px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.left-block {
+   max-width: 600px;
+   width: 100%;
+   margin-left: 132px;
+}
+.title-h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    font-weight: bold;
+    color: #534D4D;
+}
+.class-p {
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: regular;
+    color: #534D4D;
+    margin-top: 42px;
+}
+.right-block {
+   max-width: 801px;
+   width: 100%;
+}
+.image-block img {
+    width: 100%;
+    display: block;
+}
+.image-block {
+
+}
+.wave-me {
+    font-family:'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: regular;
+    color: #FFFFFF;
+    width: 236.67px;
+    height: 76.77px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    margin-top: 83.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 {
+   width: 1169px;
+   margin: 0 auto;
+}
+.section2-title {
+    text-align: center;
+}
+
+.six-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blocks-image {
+    width: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ფოტო ვერანაირად ვერ მოვათავსე შუაში*/
+.blocks-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-1 {
+    display: flex;
+    width: 370px;
+    height: 451px;
+    background-color: #FBBA77;
+    margin-bottom: 60px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.div-2 {
+    width: 370px;
+    height: 451px;
+    background-color:#41EAE3;
+
+}
+.div-3 {
+    width: 370px;
+    height: 451px;
+    background-color:#69529F;
+}
+    
+.div-4 {
+    width: 370px;
+    height: 451px;
+    background-color:#4386D2;
+    margin-bottom: 130px;
+    
+}
+.div-5 {
+    width: 370px;
+    height: 451px;
+    background-color:#A5A2F6;
+    
+}
+.div-6 {
+    width: 370px;
+    height: 451px;
+    background-color:#FF8088;
+}
+
+.read-more {
+    width: 131px;
+    height: 45px;
+    border: 2px;
+    border-radius: 23px;
+    border-color: #FFFFFF;
+    padding-top: 11px;
+    justify-content: center;
+    align-items: center;
+}
+/* ჩარჩოს პარამეტრები მითითებული მაქვს, ფერიც, მაგრამ მაინც არ ჩანს*/ 
+
+
+.readmoretext {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: medium; 
+    color: #FFFFFF;
+    text-align: center;
+} 
+.class-h5 {
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    
+}
+.class-h3 {
+    font-family:'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: regular;
+    color: #5A5454;
+    padding-top: 17px;
+    padding-bottom: 21px;
+}
+
+.secondsectiontext {
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #747474;
+    margin-bottom: 67px;
+}
+.titles {
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sixdivs-text {
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+.burger-bar{
+    display: none
+}
+
+/* responsive */
+
+@media (max-width:1024px) {
+ .container-block1 {
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .left-block {
+    width:50%
+ }
+ .right-block {
+    width:50%
+ }
+ .section2 {
+    align-items: center;
+}
+.six-blocks {
+    flex-wrap: wrap ;
+    align-items: center;
+}
+.div-1 {
+    width: 51%;
+}
+.div-2 {
+    width: 51%;
+}
+.div-3 {
+    width: 51%;
+}
+
+}
